@@ -1,0 +1,6 @@
+# task
+# This was a full development frontend(plain black and white will add more in the future) and backend for a job portal similar to Indeed or PNet, I created it as a start to showcase some of my ability to code and picked a current and powerful framework that i think is very relevant and will keep it updated it as i have time, It was written in VUE.js and node.js using sqllite as a DB(next i would like to use cockroachdb which i have been reserching and able to my own clusters and nodes and use postgres to manipulate the tables ) at the moment of writing this it has the fuctionality to add user with username and password with user details and upload a c.v(in pdf) which you can login with these credentials, I have also added the functionality to add new tiles(job Posts) with a logo,icon or picture a heading,discription. Once logged in the user can apply to each posting(it will keep track of which jobs have already been applied to but it does have a bug that i will see to).
+
+#this was written between 02/05/2021 and 08/05/2021 in personal time.
+
+# When Starting its a good idea to purge the db to remove test data using sequelize.sync({ force: true }) in app.js and remove it after and create a new user.
